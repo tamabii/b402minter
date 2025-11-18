@@ -1,0 +1,16 @@
+{
+  "name": "b402-auto-workers",
+  "version": "1.0.0",
+  "description": "Simple Node.js script to call spin() on contract",
+  "main": "spin.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node b402-workers.js"
+  },
+  "dependencies": {
+    "axios": "^1.11.0",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2"
+  }
+}
